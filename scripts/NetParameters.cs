@@ -217,7 +217,6 @@ public class NetParameters{
             {
                 if (Random.Range(0, _mutationFrequency) % _mutationFrequency == 0)
                     w1[i][j] += Random.Range(-xavierN1, xavierN1);
-                if (Random.Range(0, _mutationFrequency) % _mutationFrequency == 0)
 
                 if (j < 4)
                 {
